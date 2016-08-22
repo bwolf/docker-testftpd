@@ -1,6 +1,6 @@
 # Docker pureftpd server with default users for testing
 
-This image is intended to be used for testing ftp connections.
+This image is intended to be used for testing ftp connections. Find it a [hub.docker.com](https://hub.docker.com/r/bwolf/testftpd/).
 
 To run the ftp daemon:
 
@@ -9,5 +9,12 @@ To run the ftp daemon:
 The following users are created by default:
 - username=DOMAIN\scott, password=tiger
 - username=system, password=manager
+
+## Development notes
+
+    docker build --rm -t testftpd:latest .
+    docker login ...
+    docker tag testftpd:latest bwolf/testftpd:latest
+    docker push bwolf/testftpd:latest
 
 EOF
