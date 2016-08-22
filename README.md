@@ -1,6 +1,6 @@
 # Docker pureftpd server with default users for testing
 
-This image is intended to be used for testing ftp connections. Find it a [hub.docker.com](https://hub.docker.com/r/bwolf/testftpd/).
+This image is intended to be used for testing ftp connections. Find it a [hub.docker.com](https://hub.docker.com/r/bwolf/testftpd/). It is based on [stilliard/pure-ftpd](https://github.com/stilliard/docker-pure-ftpd).
 
 To run the ftp daemon:
 
